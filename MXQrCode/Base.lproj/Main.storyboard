@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="f9B-sd-eXW">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="LVt-Zf-bN6">
+            <objects>
+                <navigationController id="f9B-sd-eXW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="PQ8-KD-Gwu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Vtn-6q-XQF" kind="relationship" relationship="rootViewController" id="wvQ-fh-DyC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y7G-ok-vG1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-505" y="355"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zC7-Kh-X7w">
+            <objects>
+                <viewController id="Vtn-6q-XQF" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ThK-IZ-cu1"/>
+                        <viewControllerLayoutGuide type="bottom" id="04C-es-5UR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="141-vW-Xhh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hQA-bo-Tep">
+                                <rect key="frame" x="47" y="315" width="75" height="30"/>
+                                <state key="normal" title="扫描二维码"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="qQj-kR-Bu8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WOt-or-F9M">
+                                <rect key="frame" x="61" y="188" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="I5f-1V-7xP" kind="push" id="nYX-dF-5lq"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="thg-qD-TlJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WZy-zo-VK6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301" y="432"/>
+        </scene>
+        <!--Qr Code View Controller-->
+        <scene sceneID="N8F-iL-6lx">
+            <objects>
+                <viewController id="I5f-1V-7xP" customClass="QrCodeViewController" customModule="MXQrCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Oqd-u1-O4F"/>
+                        <viewControllerLayoutGuide type="bottom" id="bzD-nq-spM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="73E-5v-Jwm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ROl-Sy-sSk">
+                                <rect key="frame" x="20" y="100" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CIt-ai-k3J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rD6-6Y-fmh">
+                                <rect key="frame" x="207" y="282" width="186" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="amm-MX-I9s"/>
+                                    <constraint firstAttribute="height" constant="165" id="qeJ-fY-Ujh"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TbS-dS-zR7">
+                                <rect key="frame" x="248" y="201" width="105" height="30"/>
+                                <color key="backgroundColor" red="0.78431372549019607" green="0.49250209731543626" blue="0.76078431372549016" alpha="0.51285021551724141" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3Rz-nk-YOr"/>
+                                    <constraint firstAttribute="width" constant="105" id="qEL-xT-GBV"/>
+                                </constraints>
+                                <state key="normal" title="生成"/>
+                                <connections>
+                                    <action selector="submit:" destination="I5f-1V-7xP" eventType="touchUpInside" id="MdS-JZ-Hns"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rD6-6Y-fmh" firstAttribute="centerX" secondItem="TbS-dS-zR7" secondAttribute="centerX" id="6LL-mh-gx2"/>
+                            <constraint firstItem="ROl-Sy-sSk" firstAttribute="trailing" secondItem="73E-5v-Jwm" secondAttribute="trailingMargin" id="81g-Ex-yrN"/>
+                            <constraint firstItem="ROl-Sy-sSk" firstAttribute="leading" secondItem="73E-5v-Jwm" secondAttribute="leadingMargin" id="LjH-86-h0m"/>
+                            <constraint firstItem="ROl-Sy-sSk" firstAttribute="top" secondItem="73E-5v-Jwm" secondAttribute="topMargin" constant="100" id="QYJ-1t-qXE"/>
+                            <constraint firstItem="TbS-dS-zR7" firstAttribute="centerX" secondItem="ROl-Sy-sSk" secondAttribute="centerX" id="TTi-Nm-Com"/>
+                            <constraint firstItem="TbS-dS-zR7" firstAttribute="top" secondItem="ROl-Sy-sSk" secondAttribute="bottom" constant="33" id="mUZ-ux-1QK"/>
+                            <constraint firstItem="rD6-6Y-fmh" firstAttribute="top" secondItem="TbS-dS-zR7" secondAttribute="bottom" constant="33" id="nGd-v2-pCK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Nno-Qq-EBp"/>
+                    <connections>
+                        <outlet property="messageTextFiled" destination="ROl-Sy-sSk" id="ZgE-mC-3ru"/>
+                        <outlet property="qrcodeImageView" destination="rD6-6Y-fmh" id="5Z5-4U-bgT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSz-8g-z1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="756" y="190"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MXQrCode" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR code is detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K9A-rj-efg">
+                                <rect key="frame" x="0.0" y="554" width="600" height="46"/>
+                                <color key="backgroundColor" red="0.78497273489932884" green="0.83593749999999933" blue="0.76074874161073824" alpha="0.51285021551724141" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="JYQ-IO-Bwt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="K9A-rj-efg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="dsa-wQ-J5k"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="K9A-rj-efg" secondAttribute="bottom" id="jzt-Ar-79z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="K9A-rj-efg" secondAttribute="trailing" constant="-20" id="mF8-fN-Oh9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="KCe-Aw-gO2"/>
+                    <connections>
+                        <outlet property="messageLabel" destination="K9A-rj-efg" id="yIh-ct-3GI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="143" y="879"/>
+        </scene>
+    </scenes>
+</document>

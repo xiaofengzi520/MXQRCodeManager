@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1568D89D1C4E048A00056559 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568D89C1C4E048A00056559 /* AppDelegate.swift */; };
+		1568D89F1C4E048A00056559 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568D89E1C4E048A00056559 /* ViewController.swift */; };
+		1568D8A21C4E048A00056559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1568D8A01C4E048A00056559 /* Main.storyboard */; };
+		1568D8A41C4E048A00056559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1568D8A31C4E048A00056559 /* Assets.xcassets */; };
+		1568D8A71C4E048A00056559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1568D8A51C4E048A00056559 /* LaunchScreen.storyboard */; };
+		1568D8B21C4E048A00056559 /* MXQrCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568D8B11C4E048A00056559 /* MXQrCodeTests.swift */; };
+		1568D8BD1C4E048A00056559 /* MXQrCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568D8BC1C4E048A00056559 /* MXQrCodeUITests.swift */; };
+		1568D8CB1C4E140200056559 /* QrCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568D8CA1C4E140200056559 /* QrCodeViewController.swift */; };
+		1568D8CD1C4E1A4700056559 /* login_icon_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 1568D8CC1C4E1A4700056559 /* login_icon_logo.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1568D8AE1C4E048A00056559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1568D8911C4E048A00056559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1568D8981C4E048A00056559;
+			remoteInfo = MXQrCode;
+		};
+		1568D8B91C4E048A00056559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1568D8911C4E048A00056559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1568D8981C4E048A00056559;
+			remoteInfo = MXQrCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1568D8991C4E048A00056559 /* MXQrCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXQrCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568D89C1C4E048A00056559 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1568D89E1C4E048A00056559 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1568D8A11C4E048A00056559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1568D8A31C4E048A00056559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1568D8A61C4E048A00056559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1568D8A81C4E048A00056559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1568D8AD1C4E048A00056559 /* MXQrCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXQrCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568D8B11C4E048A00056559 /* MXQrCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXQrCodeTests.swift; sourceTree = "<group>"; };
+		1568D8B31C4E048A00056559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1568D8B81C4E048A00056559 /* MXQrCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MXQrCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1568D8BC1C4E048A00056559 /* MXQrCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MXQrCodeUITests.swift; sourceTree = "<group>"; };
+		1568D8BE1C4E048A00056559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1568D8CA1C4E140200056559 /* QrCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QrCodeViewController.swift; sourceTree = "<group>"; };
+		1568D8CC1C4E1A4700056559 /* login_icon_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_icon_logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1568D8961C4E048A00056559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8AA1C4E048A00056559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8B51C4E048A00056559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1568D8901C4E048A00056559 = {
+			isa = PBXGroup;
+			children = (
+				1568D89B1C4E048A00056559 /* MXQrCode */,
+				1568D8B01C4E048A00056559 /* MXQrCodeTests */,
+				1568D8BB1C4E048A00056559 /* MXQrCodeUITests */,
+				1568D89A1C4E048A00056559 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1568D89A1C4E048A00056559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1568D8991C4E048A00056559 /* MXQrCode.app */,
+				1568D8AD1C4E048A00056559 /* MXQrCodeTests.xctest */,
+				1568D8B81C4E048A00056559 /* MXQrCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1568D89B1C4E048A00056559 /* MXQrCode */ = {
+			isa = PBXGroup;
+			children = (
+				1568D89C1C4E048A00056559 /* AppDelegate.swift */,
+				1568D8CC1C4E1A4700056559 /* login_icon_logo.png */,
+				1568D89E1C4E048A00056559 /* ViewController.swift */,
+				1568D8CA1C4E140200056559 /* QrCodeViewController.swift */,
+				1568D8A01C4E048A00056559 /* Main.storyboard */,
+				1568D8A31C4E048A00056559 /* Assets.xcassets */,
+				1568D8A51C4E048A00056559 /* LaunchScreen.storyboard */,
+				1568D8A81C4E048A00056559 /* Info.plist */,
+			);
+			path = MXQrCode;
+			sourceTree = "<group>";
+		};
+		1568D8B01C4E048A00056559 /* MXQrCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1568D8B11C4E048A00056559 /* MXQrCodeTests.swift */,
+				1568D8B31C4E048A00056559 /* Info.plist */,
+			);
+			path = MXQrCodeTests;
+			sourceTree = "<group>";
+		};
+		1568D8BB1C4E048A00056559 /* MXQrCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1568D8BC1C4E048A00056559 /* MXQrCodeUITests.swift */,
+				1568D8BE1C4E048A00056559 /* Info.plist */,
+			);
+			path = MXQrCodeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1568D8981C4E048A00056559 /* MXQrCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1568D8C11C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCode" */;
+			buildPhases = (
+				1568D8951C4E048A00056559 /* Sources */,
+				1568D8961C4E048A00056559 /* Frameworks */,
+				1568D8971C4E048A00056559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXQrCode;
+			productName = MXQrCode;
+			productReference = 1568D8991C4E048A00056559 /* MXQrCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1568D8AC1C4E048A00056559 /* MXQrCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1568D8C41C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCodeTests" */;
+			buildPhases = (
+				1568D8A91C4E048A00056559 /* Sources */,
+				1568D8AA1C4E048A00056559 /* Frameworks */,
+				1568D8AB1C4E048A00056559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1568D8AF1C4E048A00056559 /* PBXTargetDependency */,
+			);
+			name = MXQrCodeTests;
+			productName = MXQrCodeTests;
+			productReference = 1568D8AD1C4E048A00056559 /* MXQrCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1568D8B71C4E048A00056559 /* MXQrCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1568D8C71C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCodeUITests" */;
+			buildPhases = (
+				1568D8B41C4E048A00056559 /* Sources */,
+				1568D8B51C4E048A00056559 /* Frameworks */,
+				1568D8B61C4E048A00056559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1568D8BA1C4E048A00056559 /* PBXTargetDependency */,
+			);
+			name = MXQrCodeUITests;
+			productName = MXQrCodeUITests;
+			productReference = 1568D8B81C4E048A00056559 /* MXQrCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1568D8911C4E048A00056559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = muxiao;
+				TargetAttributes = {
+					1568D8981C4E048A00056559 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 52Q934DSSV;
+					};
+					1568D8AC1C4E048A00056559 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1568D8981C4E048A00056559;
+					};
+					1568D8B71C4E048A00056559 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1568D8981C4E048A00056559;
+					};
+				};
+			};
+			buildConfigurationList = 1568D8941C4E048A00056559 /* Build configuration list for PBXProject "MXQrCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1568D8901C4E048A00056559;
+			productRefGroup = 1568D89A1C4E048A00056559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1568D8981C4E048A00056559 /* MXQrCode */,
+				1568D8AC1C4E048A00056559 /* MXQrCodeTests */,
+				1568D8B71C4E048A00056559 /* MXQrCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1568D8971C4E048A00056559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568D8A71C4E048A00056559 /* LaunchScreen.storyboard in Resources */,
+				1568D8A41C4E048A00056559 /* Assets.xcassets in Resources */,
+				1568D8A21C4E048A00056559 /* Main.storyboard in Resources */,
+				1568D8CD1C4E1A4700056559 /* login_icon_logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8AB1C4E048A00056559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8B61C4E048A00056559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1568D8951C4E048A00056559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568D89F1C4E048A00056559 /* ViewController.swift in Sources */,
+				1568D8CB1C4E140200056559 /* QrCodeViewController.swift in Sources */,
+				1568D89D1C4E048A00056559 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8A91C4E048A00056559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568D8B21C4E048A00056559 /* MXQrCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1568D8B41C4E048A00056559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1568D8BD1C4E048A00056559 /* MXQrCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1568D8AF1C4E048A00056559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1568D8981C4E048A00056559 /* MXQrCode */;
+			targetProxy = 1568D8AE1C4E048A00056559 /* PBXContainerItemProxy */;
+		};
+		1568D8BA1C4E048A00056559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1568D8981C4E048A00056559 /* MXQrCode */;
+			targetProxy = 1568D8B91C4E048A00056559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1568D8A01C4E048A00056559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1568D8A11C4E048A00056559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1568D8A51C4E048A00056559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1568D8A61C4E048A00056559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1568D8BF1C4E048A00056559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1568D8C01C4E048A00056559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1568D8C21C4E048A00056559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MXQrCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1568D8C31C4E048A00056559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MXQrCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1568D8C51C4E048A00056559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXQrCode.app/MXQrCode";
+			};
+			name = Debug;
+		};
+		1568D8C61C4E048A00056559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MXQrCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MXQrCode.app/MXQrCode";
+			};
+			name = Release;
+		};
+		1568D8C81C4E048A00056559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MXQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXQrCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1568D8C91C4E048A00056559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MXQrCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kingdowin.MXQrCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MXQrCode;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1568D8941C4E048A00056559 /* Build configuration list for PBXProject "MXQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568D8BF1C4E048A00056559 /* Debug */,
+				1568D8C01C4E048A00056559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1568D8C11C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568D8C21C4E048A00056559 /* Debug */,
+				1568D8C31C4E048A00056559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1568D8C41C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568D8C51C4E048A00056559 /* Debug */,
+				1568D8C61C4E048A00056559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1568D8C71C4E048A00056559 /* Build configuration list for PBXNativeTarget "MXQrCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1568D8C81C4E048A00056559 /* Debug */,
+				1568D8C91C4E048A00056559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1568D8911C4E048A00056559 /* Project object */;
+}
