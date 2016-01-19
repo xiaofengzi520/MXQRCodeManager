@@ -1,0 +1,2 @@
+# MXQRCodeManager
+使用AVFoundation实现二维码扫面,使用CIFilter生成二维码.简单方便
